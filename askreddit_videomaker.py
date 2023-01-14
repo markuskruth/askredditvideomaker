@@ -2,11 +2,13 @@ import praw, textwrap, pyttsx3, cv2, wave, contextlib
 from PIL import Image, ImageDraw, ImageFont
 from moviepy.editor import VideoFileClip, concatenate_videoclips, vfx, afx, CompositeAudioClip, AudioFileClip, concatenate_audioclips
 
+################################################################
 title = "Who had the biggest fall from grace in history?"
 commentAmount = 10
+####################################################
 def get_reddit_comments():
-	reddit = praw.Reddit(client_id = "in1aJ1hJ6eIaibya1RcETg",
-						client_secret = "PxJO-LFswr_NSrc0du9r473Y8zIUEA",
+	reddit = praw.Reddit(client_id = "??????",
+						client_secret = "?????",
 						username = "?????",
 						password = "?????",
 						user_agent = "chaichoiwoi")

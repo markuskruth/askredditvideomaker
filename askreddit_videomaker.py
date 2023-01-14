@@ -7,7 +7,7 @@ commentAmount = 10
 def get_reddit_comments():
 	reddit = praw.Reddit(client_id = "in1aJ1hJ6eIaibya1RcETg",
 						client_secret = "PxJO-LFswr_NSrc0du9r473Y8zIUEA",
-						username = "Kruutteri",
+						username = "?????",
 						password = "?????",
 						user_agent = "chaichoiwoi")
 
